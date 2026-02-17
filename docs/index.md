@@ -11,7 +11,7 @@ hide:
 
 ## Handy tools I made
 
-### etcdotica
+### etcdotica: dotfiles and system config management
 
 [**etcdotica**](https://github.com/senotrusov/etcdotica) is a lightweight tool that keeps selected system configuration files synchronized with a Git repository by acting as a file-level overlay, in which the repository serves as the source of truth while untracked files on the system remain untouched.
 
