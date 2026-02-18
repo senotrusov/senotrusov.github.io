@@ -77,15 +77,3 @@ html {
 .md-typeset details summary::after {
   top: 0.3em;
 }
-
-/* misc */
-
-@media (min-width: 280px) {
-  .md-typeset h1 .nobr {
-    white-space: nowrap;
-  }
-}
-
-.md-typeset p .nobr {
-  white-space: nowrap;
-}
