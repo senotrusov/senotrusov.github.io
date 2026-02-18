@@ -28,20 +28,25 @@ html {
   font-size: 1rem;
 }
 
-.md-path,
-.md-nav,
+.md-copyright,
 .md-footer__direction,
-.md-copyright {
+.md-nav,
+.md-path {
   /* Reads as: Target 17px divided by Reference Size */
   font-size: calc(17 / var(--ref-size) * 1rem); 
 }
 
+.md-footer__title,
 .md-typeset .admonition,
-.md-typeset details,
 .md-typeset .tabbed-labels > label,
-.md-footer__title {
+.md-typeset details {
   /* Reads as: Target 20px divided by Reference Size */
   font-size: calc(20 / var(--ref-size) * 1rem);
+}
+
+.md-icon svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 .md-social {
