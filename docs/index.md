@@ -23,10 +23,10 @@ Overall, it offers a predictable way to manage configuration in plain text with 
 
 ### Copy and Paste Tabs for Firefox
 
-[**Copy and Paste Tabs**](https://addons.mozilla.org/en-US/firefox/addon/copy-and-paste-tabs/) is a lightweight [Firefox](https://www.firefox.com/) extension for quickly copying open tabs to the clipboard and reopening multiple URLs by pasting them back.
+[**Copy and Paste Tabs**](https://addons.mozilla.org/en-US/firefox/addon/copy-and-paste-tabs/) is a lightweight [Firefox](https://www.firefox.com/) extension for exporting tab titles and URLs to the clipboard and restoring sessions from pasted URL lists.
 
-It can copy tabs from the active window, selected tabs, or all windows, and export tab titles and links in several formats, including Markdown, LaTeX, and MediaWiki.
+Tab titles and URLs can be copied from the active window, selected tabs, or all windows, with options to include or exclude pinned tabs. Pasted text opens every valid link as a new tab, either in the current window or in newly created windows.
 
-When pasting text, it can extract URLs from a wide range of markup styles and recreate windows based on section headers in the markup.
+Links can be copied in plain text, AsciiDoc, LaTeX, Markdown, MediaWiki, Org mode, reStructuredText, and Textile. When text is pasted, URLs can be extracted from many markup formats, and multiple windows can be recreated based on section headers in the markup.
 
-It is especially useful for archiving research sessions, saving link collections in notes, or sharing groups of tabs.
+This makes it useful for archiving and restoring research sessions, saving link collections in notes, or sharing tabs in messages.
