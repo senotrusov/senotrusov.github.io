@@ -21,9 +21,9 @@ It can inject user-managed sections into existing machine- or distribution-speci
 
 Overall, it offers a predictable way to manage configuration in plain text with minimal abstraction.
 
-### Copy and Paste Tabs
+### Copy and Paste Tabs for Firefox
 
-[**Copy and Paste Tabs**](https://addons.mozilla.org/en-US/firefox/addon/copy-and-paste-tabs/) is a lightweight Firefox extension for quickly copying open tabs to the clipboard and reopening multiple URLs by pasting them back.
+[**Copy and Paste Tabs**](https://addons.mozilla.org/en-US/firefox/addon/copy-and-paste-tabs/) is a lightweight [Firefox](https://www.firefox.com/) extension for quickly copying open tabs to the clipboard and reopening multiple URLs by pasting them back.
 
 It can copy tabs from the active window, selected tabs, or all windows, and export tab titles and links in several formats, including Markdown, LaTeX, and MediaWiki.
 
