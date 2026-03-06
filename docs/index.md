@@ -9,7 +9,7 @@ hide:
 
 * [Installing Arch Linux](/notes/installing-arch-linux/)
 
-## Handy tools I made
+## Handy tools I’ve made
 
 ### etcdotica: dotfiles and system config management
 
