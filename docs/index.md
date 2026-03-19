@@ -29,7 +29,7 @@ Links can be copied in plain text, AsciiDoc, LaTeX, Markdown, MediaWiki, Org mod
 
 This makes it useful for archiving and restoring research sessions, saving link collections in notes, or sharing tabs in messages.
 
-### etcdotica: dotfiles and system config management (2025)
+### `etcdotica` dotfiles and system config manager (2025)
 
 [**etcdotica**](https://github.com/senotrusov/etcdotica) is a lightweight tool that keeps selected system configuration files synchronized with a Git repository by acting as a file-level overlay, in which the repository serves as the source of truth while untracked files on the system remain untouched.
 
