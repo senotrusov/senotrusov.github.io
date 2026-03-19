@@ -13,7 +13,7 @@ hide:
 
 ### `envfold` environment variable manager (2026)
 
-(**envfold**](https://github.com/senotrusov/envfold) is a high-performance environment variable manager that replaces scattered `.env` files with a single, centralized configuration. It automatically applies and removes variables based on the current location in the filesystem, using pure shell logic rather than spawning external processes on each directory change. This approach maintains shell responsiveness while keeping project directories clean and enabling precise, context-aware environment control.
+[**envfold**](https://github.com/senotrusov/envfold) is a high-performance environment variable manager that replaces scattered `.env` files with a single, centralized configuration. It automatically applies and removes variables based on the current location in the filesystem, using pure shell logic rather than spawning external processes on each directory change. This approach maintains shell responsiveness while keeping project directories clean and enabling precise, context-aware environment control.
 
 At shell startup, `envfold` compiles its configuration into optimized native shell code, allowing instant evaluation on every directory change. It supports hierarchical inheritance, dynamic value resolution with optional caching, and convenient variable manipulation such as `PATH` prepending.
 
