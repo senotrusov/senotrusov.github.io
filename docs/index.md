@@ -11,7 +11,7 @@ hide:
 
 ## Handy tools I’ve made
 
-### `envfold` environment variable manager (2026)
+### envfold: environment variable manager (2026)
 
 [**envfold**](https://github.com/senotrusov/envfold) is a high-performance environment variable manager that replaces scattered `.env` files with a single, centralized configuration. It automatically applies and removes variables based on the current location in the filesystem, using pure shell logic rather than spawning external processes on each directory change. This approach maintains shell responsiveness while keeping project directories clean and enabling precise, context-aware environment control.
 
@@ -29,7 +29,7 @@ Links can be copied in plain text, AsciiDoc, LaTeX, Markdown, MediaWiki, Org mod
 
 This makes it useful for archiving and restoring research sessions, saving link collections in notes, or sharing tabs in messages.
 
-### `etcdotica` dotfiles and system config manager (2025)
+### etcdotica: dotfiles and system config manager (2025)
 
 [**etcdotica**](https://github.com/senotrusov/etcdotica) is a lightweight tool that keeps selected system configuration files synchronized with a Git repository by acting as a file-level overlay, in which the repository serves as the source of truth while untracked files on the system remain untouched.
 
