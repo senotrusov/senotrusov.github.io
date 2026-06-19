@@ -7,7 +7,9 @@ hide:
 
 ## Notes I couldn’t keep to myself
 
-* [Installing Arch Linux](/notes/installing-arch-linux/)
+* [Installing Arch Linux](https://www.senotrusov.com/notes/installing-arch-linux/) documents a reproducible, command-line path for installing and configuring [Arch Linux](https://archlinux.org/) from the ground up. It establishes a minimal, secure workstation environment, focusing on clear documentation and keeping the technical reasoning behind each configuration choice transparent.
+
+The setup provides modular options for LUKS2 full-disk encryption, optimal partition alignment on modern NVMe SSDs, automatic TRIM, and flexible filesystem layouts using either ext4 or Btrfs subvolumes. It details core system configuration, including boot management via systemd-boot, early-loading NVIDIA drivers, and secure networking managed by systemd-networkd alongside systemd-resolved with DNS-over-TLS.
 
 ## Handy tools I’ve made
 
