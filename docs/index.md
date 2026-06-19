@@ -15,11 +15,11 @@ The setup provides modular options for LUKS2 full-disk encryption, optimal parti
 
 ## Handy tools I’ve made
 
-### envfold: environment variable manager
+### Envfold: environment variable manager
 
-[**envfold**](https://github.com/senotrusov/envfold) is a high-performance environment variable manager that replaces scattered `.env` files with a single, centralized configuration. It automatically applies and removes variables based on the current location in the filesystem, using pure shell logic rather than spawning external processes on each directory change. This approach maintains shell responsiveness while keeping project directories clean and enabling precise, context-aware environment control.
+[**Envfold**](https://github.com/senotrusov/envfold) is a high-performance environment variable manager that replaces scattered `.env` files with a single, centralized configuration. It automatically applies and removes variables based on the current location in the filesystem, using pure shell logic rather than spawning external processes on each directory change. This approach maintains shell responsiveness while keeping project directories clean and enabling precise, context-aware environment control.
 
-At shell startup, `envfold` compiles its configuration into optimized native shell code, allowing instant evaluation on every directory change. It supports hierarchical inheritance, dynamic value resolution with optional caching, and convenient variable manipulation such as `PATH` prepending.
+At shell startup, Envfold compiles its configuration into optimized native shell code, allowing instant evaluation on every directory change. It supports hierarchical inheritance, dynamic value resolution with optional caching, and convenient variable manipulation such as `PATH` prepending.
 
 Manual overrides defined interactively in the shell are preserved and remain in effect even after leaving a directory.
 
@@ -33,9 +33,9 @@ Links can be copied in plain text, AsciiDoc, LaTeX, Markdown, MediaWiki, Org mod
 
 This makes it useful for archiving and restoring research sessions, saving link collections in notes, or sharing tabs in messages.
 
-### etcdotica: dotfiles and system config manager
+### Etcdotica: dotfiles and system config manager
 
-[**etcdotica**](https://github.com/senotrusov/etcdotica) is a lightweight tool that keeps selected system configuration files synchronized with a Git repository by acting as a file-level overlay, in which the repository serves as the source of truth while untracked files on the system remain untouched.
+[**Etcdotica**](https://github.com/senotrusov/etcdotica) is a lightweight tool that keeps selected system configuration files synchronized with a Git repository by acting as a file-level overlay, in which the repository serves as the source of truth while untracked files on the system remain untouched.
 
 It mirrors tracked files directly to their corresponding paths without translation layers, supports collecting local edits back into the repository, and can watch for changes to apply updates automatically.
 
